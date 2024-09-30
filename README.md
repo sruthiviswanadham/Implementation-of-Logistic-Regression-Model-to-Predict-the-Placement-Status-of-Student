@@ -1,6 +1,6 @@
-Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
-Date:
-AIM:
+### Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
+### Date:30-9-2024
+### AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
 Equipments Required:
@@ -24,8 +24,8 @@ Step 7:End the program.
 Program:
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: RAMYA R
-RegisterNumber: 212223230169
+Developed by: v.sai sruthi
+RegisterNumber: 212223100061
 
 import pandas as pd
 data=pd.read_csv("C:/Users/admin/Downloads/Placement_Data.csv")
