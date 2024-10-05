@@ -26,7 +26,7 @@ Program:
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: v.sai sruthi
 RegisterNumber: 212223100061
-
+```
 import pandas as pd
 data=pd.read_csv("C:/Users/admin/Downloads/Placement_Data.csv")
 data.head()
@@ -76,7 +76,7 @@ print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
-*/
+```
 Output:
 Accuracy:
 ![image](https://github.com/user-attachments/assets/58ed4fe6-2017-402a-bd12-34b89bb030cd)
