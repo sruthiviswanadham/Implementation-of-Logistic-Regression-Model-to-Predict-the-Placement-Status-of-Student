@@ -3,10 +3,11 @@
 ### AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
-Equipments Required:
+### Equipments Required:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Jupyter notebook
-Algorithm
+
+### Algorithm
 Step 1: start the program
 
 Step 2: Load and preprocess the dataset: drop irrelevant columns, handle missing values, and encode categorical variables using LabelEncoder.
@@ -21,11 +22,12 @@ Step 6:Display the confusion matrix using metrics.ConfusionMatrixDisplay and plo
 
 Step 7:End the program.
 
-Program:
+### Program:
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: v.sai sruthi
 RegisterNumber: 212223100061
+/*
 ```
 import pandas as pd
 data=pd.read_csv("C:/Users/admin/Downloads/Placement_Data.csv")
@@ -77,14 +79,14 @@ print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 ```
-Output:
-Accuracy:
+### Output:
+### Accuracy:
 ![image](https://github.com/user-attachments/assets/58ed4fe6-2017-402a-bd12-34b89bb030cd)
 
-Prediction:
+### Prediction:
 
 ![image](https://github.com/user-attachments/assets/d1ddf2a2-b5f0-4f93-bf60-59e5c43ba0c8)
 
 
-Result:
+### Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
